@@ -161,7 +161,7 @@
         echo "</tr>";
       }
       echo "</table>";
-      echo "<h2>Total Amount: ".$conn->query($sql2)->fetch_assoc()['SUM(PRICE)']. "</h2>";
+      echo "<h2>Total Amount: " . $conn->query($sql2)->fetch_assoc()['SUM(PRICE)'] . "</h2>";
     } else
       echo "<h4>No orders yet!</h4>";
   }

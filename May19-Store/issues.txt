@@ -23,7 +23,7 @@
 
 
 9. add a table to the right showing products while adding the product in orders.
-    solution: done
+    solution: got the query and positioned the table at the top as relative.
 
 10. add warning if category not selcted while registering a product.
     solution: added the else condition in product.php
